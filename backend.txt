@@ -1,0 +1,24 @@
+backend/
+├─ package.json
+├─ tsconfig.json
+├─ .env.example
+└─ src/
+   ├─ server.ts
+   ├─ app.ts
+   ├─ routes/
+   │  ├─ auth.ts
+   │  ├─ user.ts
+   │  ├─ credits.ts
+   │  ├─ training.ts
+   │  ├─ payments.ts
+   │  └─ webhooks.ts
+   ├─ services/
+   │  ├─ supabase.ts
+   │  ├─ retell.ts
+   │  ├─ openai.ts
+   │  ├─ paypal.ts
+   │  └─ binance.ts
+   ├─ middleware/
+   │  └─ auth.ts
+   └─ utils/
+      └─ types.d.ts
