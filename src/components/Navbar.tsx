@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link to="/" className="flex items-center space-x-2">
               <img 
                 src="/tmpi_4lckru.webp" 
-                alt="Speedy Homes Logo" 
+                alt="Your Company Logo" 
                 className="h-10 w-auto"
               />
             </Link>
